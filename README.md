@@ -28,16 +28,19 @@ With the source strengths resolved, the global velocity field ($u$, $v$) is comp
 
 ## 📸 Visualization Outputs
 
-### Streamline Topography
-* **Streamlined Geometry:** Exhibits smooth contouring, symmetric patterns, and minimized flow separation.
-* **Bluff Geometry:** Demonstrates massive stagnation regions on the windward side and chaotic separation triggered by sharp, non-aerodynamic concave edges.
-
-*(Streamline visualizations generated via `matplotlib.pyplot.streamplot`)*
-
 ### Pressure Coefficient ($C_p$) Mapping
 Evaluated using the dimensionless parameter: 
 $$ C_p = 1 - \frac{u^2 + v^2}{U_{\infty}^2} $$
 Highlights distinct stagnation points ($C_p = 1.0$) at the leading edges and intense flow acceleration (low pressure) regions over cockpit/wing contours.
+
+![Space Shuttle Cp Map](assets/shuttle_cp_map.png)
+*Figure 1: Pressure Coefficient contour map over the Space Shuttle Discovery.*
+
+### Streamline Topography & Flow Separation
+Demonstrates massive stagnation regions on the windward side and chaotic separation triggered by sharp, non-aerodynamic concave edges on a bluff body.
+
+![Texas Flow Separation](assets/texas_streamlines.png)
+*Figure 2: Velocity streamlines demonstrating turbulent flow separation over a bluff geometry.*
 
 ---
 
